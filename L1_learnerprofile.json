@@ -1,0 +1,60 @@
+{
+        "general": {
+                "firstName": "John",
+                "lastName": "Doe",
+                "gender": "",
+                "age": "",
+                "activitiesCompleted": [
+                        "gettingReadyForSchool.json",
+                        "brushingTeeth.json",
+                        "gettingDressed.json",
+                        "breakfast.json"
+                ],
+                "dialoguesCompleted": [
+                        "gettingReadyForSchool_dialogue.json",
+                        "brushingTeeth_dialogue.json"
+                ]
+        },
+        "computerDexterity": {
+                "mouse": "7",
+                "keyboard": "8",
+                "typing": "7"
+        },
+        "developmentalSkills": {
+                "listening": "8",
+                "requesting": "10",
+                "naming": "10",
+                "conversational": "5",
+                "visualDiscrimination": "10",
+                "visualMatching": "10",
+                "reading": "10",
+                "writing": "5",
+                "maths": "4",
+                "selfSufficiency": "3"
+        },
+        "preferences_supports": {
+                "preferredLearningStyle": "visual",
+                "auditoryReinforcers": [
+                        "paw patrol music",
+                        "..."
+                ],
+                "visualReinforcers": [
+                        "paw patrol characters",
+                        "..."
+                ],
+                "verbalPraise": [
+                        "well done",
+                        "that's great",
+                        "..."
+                ],
+                "familyMembers": [],
+                "homeSttings": [],
+                "relevantOthers": [],
+                "otherSettings": []
+        },
+        "tolerance": {
+                "visualTolerance": "5",
+                "auditoryTolerance": "3",
+                "adaptability": "3"
+        }
+}

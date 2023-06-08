@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "sceneID": "1",
+    "licence": "GNU",
+    "creationDate": "3/02/2023",
+    "lastAccessed": "3/02/2023",
+    "learner": ":L1_profile.json",
+    "activity": "MAIN-activity-gettingReadyForSchool.json",
+    "dialogue": "DIALOGUE-gettingReadyForSchool.json"
+  },
+
+  "completion": {
+      "activityStatus": "0",
+      "dialogueStatus": "",
+      "masteryStatus": "0",
+      "numSessions": "0",
+      "correctFreq": "0",
+      "errorFreq": "0",
+      "promptedFreq": "0"
+   },
+
+  "rendering": {
+    "colur": "default",
+    "audio": "default",
+    "actors": [ "learner" ],
+    "reinfTheme": "paw patrol",
+    "reinforcers": [
+      { "verbal": [ "well done", "super duper" ] },
+      { "visual": [ "emoticons", "pictures", "animation" ] },
+      { "audio": [ "paw patrol music", "David Bowie", "Mozart" ] }
+    ],
+    "reinfSchedule": "continuous",
+    "promptType": "gestural",
+    "promptDelay": "1",
+    "instructionComplexity": "5"
+  },
+
+  "stepRunning": {
+    "currentStep": "getting out the bed",
+    "stepsAttempted": [],
+    "currentDialogueStep": "",
+    "dialogueStepsAttempted": [],
+    "currentObjects": [ "bed", "bedsheets", "pillow" ],
+    "currentAddObjects": [ "mirror" ],
+    "currentAddActors": [ ],
+    "currentNumCorrect": "0",
+    "currentNumErrors": "0",
+    "currentNumPrompts": "0"
+  },
+
+  "skillsScores": {
+    "listening": "8",
+    "visualDiscrimination": "10",
+    "selfSufficiency": "3"
+  } 
+}

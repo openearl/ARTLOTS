@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "name": "getting ready for school",
+    "description": "This is a collection of potential questions and answers for steps to get ready for school",
+    "authors": [ "A.P.", "K.G." ],
+    "licence": "GNU",
+    "creationDate": "25/01/2023",
+    "lastUpdated": "28/01/2023",
+    "skillsTags": [
+      "listening",
+      "conversational",
+      "selfSufficiency"
+    ],
+    "activity": "gettingReadyForSchool.json",
+    "numReqActors": "2"
+  },
+
+    "steps": [
+      {
+        "stepName": "getting out the bed",
+        "potentialOrder": ["1"],
+        "alternativeSteps": [],
+        "potentialPreviousSteps": [],
+        "potentialNextSteps": [ "brushing teeth", "getting dressed", "having breakfast" ],
+        "dialogue": "gettingOutBed_dialogue.json",
+        "questions": ["So, <name>, what do you do first when getting ready for school?", 
+                "Ok <name>, what's the first thing you do when getting ready for school?", 
+                "..."],
+         "answers": ["I get out the bed", "I get up", "..."]
+      },
+      {
+        "stepName": "brushing teeth",
+        "potentialOrder": [ "2", "3", "4" ],
+        "alternativeSteps": ["getting dressed", "having breakfast"],
+        "potentialPreviousSteps": [ "getting out the bed", "getting dressed", "having breakfast" ],
+        "potentialNextSteps": [ "leaving", "getting dressed", "having breakfast" ],
+        "activity": "brushingTeeth_dialogue.json",
+        "questions": ["Ok, <name>. After <previous>, what do you do?", 
+                      "So <name>, then what do you do after <previous>?"],
+        "answers": ["I brush my teeth", "I clean my teeth"]
+      },
+      {
+        "stepName": "getting dressed",
+        "potentialOrder": [ "2", "3", "4" ],
+        "alternativeSteps": ["brushing teeth", "having breakfast"],
+        "potentialPreviousSteps": [ "getting out the bed", "brushing teeth", "having breakfast" ],
+        "potentialNextSteps": [ "leaving", "brushing teeth", "having breakfast" ],
+        "activity": "gettingDressed_dialogue.json",
+        "questions": ["Ok, <name>. After <previous>, what do you do?", 
+                "So <name>, then what do you do after <previous>?"],
+        "answers": ["I get dressed", "I put my cloths on"]
+      },
+      {
+        "stepName": "having breakfast",
+        "potentialOrder": [ "2", "3", "4" ],
+        "alternativeSteps": ["brushing teeth", "getting dressed"],
+        "potentialPreviousSteps": [ "getting out the bed", "brushing teeth", "getting dressed" ],
+        "potentialNextSteps": [ "leaving", "brushingteeth", "getting dressed" ],
+        "activity": "havingBreakfast_dialogue.json",
+        "questions": ["Ok, <name>. After <previous>, what do you do?", 
+                "So <name>, then what do you do after <previous>?"],
+        "answers": ["I have my breakfast", "I eat my breakfast"]
+      },
+      {
+        "stepName": "leaving",
+        "potentialOrder": [ "5" ],
+        "alternativeSteps": [],
+        "potentialPreviousSteps": [ "having breakfast", "brushing your teeth", "getting dressed" ],
+        "potentialNextSteps": [],
+        "activity": "leaving_dialogue.json",
+        "questions": ["Ok, <name>. After <previous>, what do you do?", 
+                "So <name>, then what do you do after <previous>?"],
+        "answers": ["I go to school <transport>"]
+      }
+    ]
+}
